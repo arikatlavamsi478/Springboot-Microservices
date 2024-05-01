@@ -1,0 +1,21 @@
+# # customize the server port
+server:
+  port: 8081
+  
+# customize the path of our API documentation
+# sort the API paths in order of their HTTP methods  
+  
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
+    operationsSorter: method
+    
+spring:
+    security:
+        user:
+            name: vamsi
+            password: Babu#478
+            roles: ADMIN
+    
+    
+    
