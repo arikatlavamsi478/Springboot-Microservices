@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename Java project &apos;1_Springboot_HelloWorld_RestApi&apos; to &apos;1_Springboot_Swagger_OpenAPI_Integration&apos;&#x0A;- Original element: &apos;1_Springboot_HelloWorld_RestApi&apos;&#x0A;- Renamed element: &apos;1_Springboot_HelloWorld_RestApi&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;1_Springboot_HelloWorld_RestApi&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=1_Springboot_HelloWorld_RestApi" name="1_Springboot_Swagger_OpenAPI_Integration" references="true" stamp="1665425307324" version="1.0"/>
-</session>

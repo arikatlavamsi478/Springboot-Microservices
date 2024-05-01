@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Java8_Nelson.iml" filepath="$PROJECT_DIR$/.idea/Java8_Nelson.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-streams-course/javastreams.iml" filepath="$PROJECT_DIR$/java-streams-course/javastreams.iml" />
-    </modules>
-  </component>
-</project>
