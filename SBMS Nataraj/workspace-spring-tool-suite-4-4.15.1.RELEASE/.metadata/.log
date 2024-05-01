@@ -1,0 +1,207 @@
+!SESSION 2022-10-19 14:34:11.323 -----------------------------------------------
+eclipse.buildId=4.15.1.202206171354
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/vamsiarikatla/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/vamsiarikatla/.eclipse_keyring
+
+This is a continuation of log file /Users/vamsiarikatla/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/.metadata/.bak_0.log
+Created Time: 2022-10-19 14:34:40.384
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:40.389
+!MESSAGE Boot LS startup time from start to initialized: 9384ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.462
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gUxJREyXisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.481
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.482
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.484
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.484
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gUxJREyX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.487
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.523
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.524
+!MESSAGE buffering callback sts4.classpath.gUxJREyX 1_Springboot_Swagger_OpenAPI_Integration false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.529
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.548
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.549
+!MESSAGE buffering callback sts4.classpath.gUxJREyX EmployeeManagementSystem-BE false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.550
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.559
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.559
+!MESSAGE buffering callback sts4.classpath.gUxJREyX HibernateApp1 false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:41.560
+!MESSAGE executing callback sts4.classpath.gUxJREyX 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:34:42.964
+!MESSAGE executing callback sts4.classpath.gUxJREyX SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-10-19 14:35:07.005
+!MESSAGE Illegal character in path at index 20: file:/Volumes/Spring Tool Suite 4/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319/jars/
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 20: file:/Volumes/Spring Tool Suite 4/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319/jars/
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.addJarsFromBundle(MavenRuntimeClasspathProvider.java:81)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.get(MavenRuntimeClasspathProvider.java:66)
+	at org.eclipse.m2e.editor.lemminx.MavenRuntimeClasspathProvider.get(MavenRuntimeClasspathProvider.java:1)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1850)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getXMLLSClassPathExtensions(XMLExtensionRegistry.java:81)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getExtensionJarPaths(XMLLanguageServer.java:148)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:83)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.createConnectionProvider(LanguageServersRegistry.java:161)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:233)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.ui 2 2 2022-10-19 14:35:15.766
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:06.923
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:06.953
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:06.956
+!MESSAGE buffering callback sts4.classpath.gUxJREyX 1_Springboot_Swagger_OpenAPI_Integration false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:06.958
+!MESSAGE executing callback sts4.classpath.gUxJREyX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:07.601
+!MESSAGE executing callback sts4.classpath.gUxJREyX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:24.970
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gUxJREyX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:24.971
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.gUxJREyX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:24.971
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:24.971
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gUxJREyX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:36.051
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:36.057
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1ca55d5[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=561)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:36.057
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.708
+!MESSAGE Boot LS startup time from start to initialized: 5647ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.934
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vsPrlfAhisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.935
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.935
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.936
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.939
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vsPrlfAh => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.939
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.960
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.961
+!MESSAGE buffering callback sts4.classpath.vsPrlfAh 1_Springboot_Swagger_OpenAPI_Integration false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.961
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.965
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.966
+!MESSAGE buffering callback sts4.classpath.vsPrlfAh EmployeeManagementSystem-BE false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.966
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.968
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.969
+!MESSAGE buffering callback sts4.classpath.vsPrlfAh HibernateApp1 false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:41.969
+!MESSAGE executing callback sts4.classpath.vsPrlfAh 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-10-19 14:36:43.022
+!MESSAGE executing callback sts4.classpath.vsPrlfAh SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-10-22 04:37:01.617
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
